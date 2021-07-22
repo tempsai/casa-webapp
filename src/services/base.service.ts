@@ -1,5 +1,5 @@
 // import axios from 'axios';
-
+export {}
 // const AXIOS_SERVICE = axios.create({
 //   baseURL: process.env.REACT_APP_HOST_URL, // inject backend hostURL from env vars
 //   timeout: 100000, //set timeout

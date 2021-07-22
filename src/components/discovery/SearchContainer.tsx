@@ -70,7 +70,8 @@ const SearchBox = ({ currentRefinement, isSearchStalled, refine }: any) => {
 
 const CasaSearchBar = connectSearchBox(SearchBox);
 
-const Results = ({ hits }: SeachResults) => {
+//TODO: remove any
+const Results = ({ hits }: SeachResults): any => {
   return hits.length === 0 ? (
     <Container p="30">
     <Center>No results for your query 😭 </Center>

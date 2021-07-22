@@ -1,5 +1,5 @@
 // import BaseService from './base.service';
-
+export {}
 // export default class PriceService extends BaseService {
 //   CURRENT_PATH: string;
 //   PRICE_RESOURCE: string;
