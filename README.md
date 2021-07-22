@@ -1,6 +1,11 @@
-readMe.md
-
 ## Casa
+
+#### Run this app locally
+
+1. Install dependencies using `yarn`
+1. Run dev server locally `yarn dev`
+1. Build locally `yarn run build`
+
 
 #### Requirements
 
