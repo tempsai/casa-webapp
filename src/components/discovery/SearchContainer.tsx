@@ -5,12 +5,6 @@ import {
   connectSearchBox,
   connectHits,
 } from "react-instantsearch-dom";
-import {
-  GoogleMapsLoader,
-  GeoSearch,
-  Control,
-  Marker,
-} from "react-instantsearch-dom-maps";
 
 import {
   Input,
