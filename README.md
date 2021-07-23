@@ -99,6 +99,12 @@ NextJS powerful frontend framework with a growing community and uses React which
 **Why not Gatsby?**
 Gatsby shines as a static webpage generator, parts of this webapp require dynamic rendering.
 
+**Why Server side render?**
+Client side rendering usually has a heavier app bundles, for a public facing webapp, we cannot assume the hardware of the end user, so it is recommended
+in the interest of page load time and performance, that we do most of the parsing on the server and ship bundles
+
+This is also good for SEO
+
 Alternatives: Create-react-app, GatsbyJS, Vue, Ember, Angular...
 
 * TypeScript: imposes type checking on Javascript, adds some features. 
