@@ -95,9 +95,10 @@ Field level validation can be performed for fields such as login/sign up and oth
 The framework uses React which is a library that implements a reconcliation algorithm that efficiently renders DOM elements written in JSX
 
 NextJS powerful frontend framework with a growing community and uses React which is a very popular choice,it also enjoys official TypeScript support.
+It also uses static 
 
 **Why not Gatsby?**
-Gatsby shines as a static webpage generator, parts of this webapp require dynamic rendering.
+Gatsby shines as a static webpage generator. Also Gatsby requires GraphQL, this heavily changes our requirements from the backend. 
 
 **Why Server side render?**
 Client side rendering usually has a heavier app bundles, for a public facing webapp, we cannot assume the hardware of the end user, so it is recommended
@@ -123,3 +124,17 @@ Alternatives: MaterialUI, react-strap,many more..
 It also provides interceptors for request and response that are handy
 
 Alternatives: fetch, Ajax
+
+* Testing Strategy: 
+1. Component unit tests: these tests are localized, do not depend on external dependencies, they are used to determine if a component renders as expected when
+provided with all required props
+
+tools: jest, react-testing library
+
+1. Accesibility tests: tests for any accesibility violations
+
+tools: jest-axe
+
+1. End-to-end testing: test the interaction between external and internal components, external services may be involved
+
+tools: cypress
